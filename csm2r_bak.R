@@ -24,15 +24,12 @@ rootNodeName <- "MISSILE ASSY"
 modelFileName <- "com.nomagic.magicdraw.uml_model.model" # cameo XML model
 xmlFile <- unz(csmfileName,modelFileName) # unzip the model to memory
 
+
 # Read XML file using xml2 package
 # https://blog.rstudio.com/2015/04/21/xml2/
 xmlData <- read_xml(xmlFile)
 
-# Lets look at the XML data
-modelData <- xmlParse(xmlData)
-modelData
-
-# Set XML look up Strings using an XPATH expression (like regex for trees...)
+# Set XML look up Strings
 xmlElement <- "//packagedElement[@name="
 xmlClass <- "and @xmi:type='uml:Class']"
 
@@ -40,9 +37,8 @@ xmlClass <- "and @xmi:type='uml:Class']"
 rootNodeXML <- xml_find_all(xmlData, paste0(xmlElement, "'", rootNodeName, "'", xmlClass))
 rootNodeChildrenNames <- toupper(xml_attr(xml_children(rootNodeXML), "name"))
 treeStruct <- Node$new(rootNodeName)
-treeStruct
 
-# Build the first level since its known and add custom attributes
+# Build the first level since its known
 lapply(rootNodeChildrenNames, function(x)
   treeStruct$AddChild(x,cost=0))
 
@@ -54,52 +50,44 @@ plot(treeStruct)
 
 # Play with cost attribute
 dfCost = ToDataFrameNetwork(treeStruct, "cost")
-dfCost <- edit(dfCost)
-totalCost <- sum(dfCost$cost)
-totalCost
+#dfCost <- edit(dfCost)
 
-# Group by system and sum
-data_group <- dfCost %>%                              
-  group_by(from) %>%
-  dplyr::summarize(gr_sum = sum(cost)) %>% 
-  as.data.frame()
-data_group                                            
+#### Other fun... lets look at the XML data
+modelData <- xmlParse(xmlData)
+modelData
 
-####
-#------- Lets fetch some data from the XML
-####
-
-# Fetch a list of the first stage blocks
-baseModel <- (xml_find_(xmlData, paste0(xmlElement, "'", rootNodeName, "'", xmlClass)))
-
-# -----------------  Put your analysis model here!!!! ########
+# Get a single list of the blocks
+baseModel <- (xml_find_all(xmlData, paste0(xmlElement, "'", rootNodeName, "'", xmlClass)))
 
 ## Set XML look up Strings
-## Find the new attribute in the model and update the value
+## Find the new attribute in the model and fetch its owned attribute property
 attribute = "xyz"
 xmlElement <- "//ownedAttribute[@name="
-xmlClass <- "and @xmi:type='uml:Property']/defaultValue"
+xmlClass <- "and @xmi:type='uml:Property']"
+ownedAttribute <- xml_find_all(xmlData, paste0(xmlElement, "'", attribute, "'", xmlClass))
 
-# Fetch that defaultValue for the noted attrubute item
-xyz_defaultValue <- as.numeric(
-  xml_attr(xml_find_all(xmlData, paste0(xmlElement, "'", attribute, "'", xmlClass)), "value")
-  )
+# Now get the list of attributes for 'ownedAttribute'
+xmlElement <- "//defaultValue"
+xmlClass <- "[@xmi:type='uml:LiteralReal']"
+ownedAttributeAtts <- xml_find_all(ownedAttribute, paste(xmlElement, xmlClass))
+ownedAttributeAtts
+
+# Now lets get the value
+defaultValue <- xml_attrs(xml_find_all(ownedAttribute, paste(xmlElement, xmlClass)))[[1]][3] # the hard way
+defaultValue <- xml_attr(ownedAttributeAtts, "value")
+defaultValue
+
+### That's it... in about 45 lines of code we pulled a model out of csm and found a default value for use elsewhere
 
 # -----------------  Put your analysis model here!!!! ########
-xyz_newValue <- as.numeric(xyz_defaultValue) * 2
 
-# Now lets update the defaultValue based on the results of the analysis
-xml_set_attr(xml_find_all(xmlData, paste0(xmlElement, "'", attribute, "'", xmlClass)), "value", xyz_newValue)
+### Now what??? Lets push a value back into the csm model and save it :)
 
-# This is the XPATH call walk
-paste0(xmlElement, "'", attribute, "'", xmlClass)
-xml_find_all(xmlData, paste0(xmlElement, "'", attribute, "'", xmlClass))
+# Lets change the attribute that we just looked at
+xml_attr(ownedAttributeAtts, "value") <- "2"
+ownedAttributeAtts
 
 
-### That's it... in about 50 working lines of code (including the recrusive func) we:
-# 1) pulled an entire model out of csm
-# 2) performed some foreign attribute work (cost summation)
-# 3) found a specific attribute and modified it value
-# 4) and finally saved the model back to disk
-
+doc <- xml_children(xmlData)[3]
+ns <- xml_ns()
 

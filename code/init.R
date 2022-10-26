@@ -6,6 +6,7 @@ library(metRology)
 library(stringr)
 library(skimr)
 library(doParallel)
+library(dplyr)
 
 # Modify global options
 options(digits = 4)
