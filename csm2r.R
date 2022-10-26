@@ -35,35 +35,38 @@ modelData
 # Set XML look up Strings using an XPATH expression (like regex for trees...)
 xmlElement <- "//packagedElement[@name="
 xmlClass <- "and @xmi:type='uml:Class']"
+xpathCall <- paste0(xmlElement, "'", rootNodeName, "'", xmlClass)
+xpathCall
 
 # BUild the root node in the tree
-rootNodeXML <- xml_find_all(xmlData, paste0(xmlElement, "'", rootNodeName, "'", xmlClass))
+rootNodeXML <- xml_find_all(xmlData, xpathCall)
 rootNodeChildrenNames <- toupper(xml_attr(xml_children(rootNodeXML), "name"))
 treeStruct <- Node$new(rootNodeName)
 treeStruct
 
 # Build the first level since its known and add custom attributes
 lapply(rootNodeChildrenNames, function(x)
-  treeStruct$AddChild(x,cost=0))
+  treeStruct$AddChild(x, cost=0))
+treeStruct
 
 # Recurse and build the full tree
 # Always start with the root node's children names
 csm2Diagram(rootNodeChildrenNames)
-treeStruct
+print(treeStruct, "cost")
 plot(treeStruct)
 
 # Play with cost attribute (unremark to present...)
 dfCost = ToDataFrameNetwork(treeStruct, "cost")
-# dfCost <- edit(dfCost)
-# totalCost <- sum(dfCost$cost)
-# totalCost
+dfCost <- edit(dfCost)
 
-# Group by system and sum
-#data_group <- dfCost %>%                              
-#  group_by(from) %>%
-#  dplyr::summarize(gr_sum = sum(cost)) %>% 
-#  as.data.frame()
-#data_group                                            
+# Convert back to a network after the 
+treeStruct <- FromDataFrameNetwork(dfCost)
+print(treeStruct, "cost")
+
+# Get running total of costs based on nodes and children values.
+treeStruct$Do(function(x) x$total <- ifelse(is.null(x$cost), 0, x$cost) + sum(Get(x$children, "total")), traversal = "post-order")
+print(treeStruct, "cost", "total")
+
 
 ####
 #------- Lets fetch some data from the XML
@@ -71,6 +74,7 @@ dfCost = ToDataFrameNetwork(treeStruct, "cost")
 
 # Fetch a list of the first stage blocks
 baseModel <- (xml_find_all(xmlData, paste0(xmlElement, "'", rootNodeName, "'", xmlClass)))
+baseModel # go and review in the view model
 
 # -----------------  Put your analysis model here!!!! ########
 
@@ -95,12 +99,8 @@ xyz_newValue <- as.numeric(xyz_defaultValue) / 2
 xml_set_attr(xml_find_all(xmlData, xpathCall), "value", xyz_newValue)
 
 # Finally lets save the xmlData model back to disk
-tmp <- tempdir()
-unzip(csmfileName, overwrite=TRUE, exdir=tmp)
-modelFile <- paste0(tmp, "\\", modelFileName)
-write_xml(xmlData, file=modelFile)
-zip(csmfileName, tmp)
-
+write_xml(xmlData, modelFileName)
+zip(csmfileName, files=modelFileName, flags="-uv") # replace with updated model
 
 ### That's it... in about 50 working lines of code (including the recursive func) we:
 # 1) pulled an entire model out of csm

@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:MagicDraw_Profile="http://www.omg.org/spec/UML/20131001/MagicDrawProfile" xmlns:DSL_Customization="http://www.magicdraw.com/schemas/DSL_Customization.xmi" xmlns:MD_Customization_for_Requirements__additional_stereotypes="http://www.magicdraw.com/spec/Customization/180/Requirements" xmlns:Validation_Profile="http://www.magicdraw.com/schemas/Validation_Profile.xmi" xmlns:StandardProfile="http://www.omg.org/spec/UML/20131001/StandardProfile" xmlns:Dependency_Matrix_Profile="http://www.magicdraw.com/schemas/Dependency_Matrix_Profile.xmi" xmlns:sysml="http://www.omg.org/spec/SysML/20181001/SysML" xmlns:MD_Customization_for_SysML__additional_stereotypes="http://www.magicdraw.com/spec/Customization/180/SysML">
+  <xmi:Documentation>
+    <xmi:exporter>MagicDraw UML</xmi:exporter>
+    <xmi:exporterVersion>2021x</xmi:exporterVersion>
+  </xmi:Documentation>
+  <xmi:Extension extender="MagicDraw UML 2021x">
+    <plugin pluginName="SysML" pluginVersion="2021x"/>
+    <plugin pluginName="Cameo Requirements Modeler" pluginVersion="2021x"/>
+    <req_resource resourceID="1440" resourceName="SysML" resourceValueName="SysML Block Definition Diagram"/>
+    <req_resource resourceID="1480" resourceName="Cameo Requirements Modeler" resourceValueName="Cameo Requirements Modeler"/>
+    <req_resource resourceID="1440" resourceName="SysML" resourceValueName="SysML"/>
+  </xmi:Extension>
+  <uml:Model xmi:type="uml:Model" xmi:id="eee_1045467100313_135436_1" name="Model">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_19_0_3_b5902e3_1597852202155_862221_14142" body="Author:jdehart.&#10;Created:10/1/2012 3:10 PM.&#10;Title:.&#10;Comment:.&#10;">
+      <annotatedElement xmi:idref="eee_1045467100313_135436_1"/>
+    </ownedComment>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202146_576393_14038" importedPackage="_19_0_3_b5902e3_1597852202151_592938_14087"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202154_371059_14125" importedPackage="_19_0_3_b5902e3_1597852202106_585193_13670"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202113_472615_13751" importedPackage="_19_0_3_b5902e3_1597852202139_867954_13971"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202147_793964_14044" importedPackage="_19_0_3_b5902e3_1597852202111_624094_13728"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202144_447862_14013" importedPackage="_19_0_3_b5902e3_1597852202155_376495_14136"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202154_730402_14128" importedPackage="_19_0_3_b5902e3_1597852202136_80477_13926"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202154_349100_14119" importedPackage="_19_0_3_b5902e3_1597852202135_43737_13918"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202135_734407_13916" importedPackage="_19_0_3_b5902e3_1597852202146_824668_14037"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202132_843221_13887" importedPackage="_19_0_3_b5902e3_1597852202141_463162_13996"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202140_411928_13979" importedPackage="_19_0_3_b5902e3_1597852202135_941694_13912"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202115_677277_13771" importedPackage="_19_0_3_b5902e3_1597852202130_615962_13854"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202151_707601_14082" importedPackage="_19_0_3_b5902e3_1597852202155_466027_14145"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202143_477410_14008" importedPackage="_19_0_3_b5902e3_1597852202106_741637_13671"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202129_272854_13848" importedPackage="_19_0_3_b5902e3_1597852202126_621391_13807"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202110_284040_13716" importedPackage="_19_0_3_b5902e3_1597852202147_791691_14048"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_19_0_3_b5902e3_1597852202136_983124_13924" importedPackage="_19_0_3_b5902e3_1597852202139_23271_13968"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202154_677539_14129" name="Unit Imports">
+      <xmi:Extension extender="MagicDraw UML 2021x">
+        <modelExtension>
+          <ownedDiagram xmi:type="uml:Diagram" xmi:id="_19_0_3_b5902e3_1597852202153_22331_14105" name="Basic Unit Categories" visibility="public" ownerOfDiagram="_19_0_3_b5902e3_1597852202154_677539_14129">
+            <xmi:Extension extender="MagicDraw UML 2021x">
+              <diagramRepresentation>
+                <diagram:DiagramRepresentationObject xmlns:binary="http://www.nomagic.com/ns/cameo/esi/client/binary/1.0" xmlns:diagram="http://www.nomagic.com/ns/magicdraw/core/diagram/1.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="_19_0_3_b5902e3_1597852202117_819479_13799" initialFrameSizeSet="true" requiredFeature="DependencyMatrixPlugin#Dependency Matrix;UML_Standard_Profile.mdzip" type="Dependency Matrix" umlType="Class Diagram" xmi:id="_XXBk4I40Eee-NOwIYMDspg" xmi:version="2.0">
+                  <diagramContents exporterName="MagicDraw UML" exporterVersion="2021x" xmi:id="_XXBk4Y40Eee-NOwIYMDspg">
+                    <binaryObject streamContentID="08d027a1-f5a3-44e4-9efb-570f4521ac4d" xmi:id="_XXBk4o40Eee-NOwIYMDspg" xsi:type="binary:StreamIdentityBinaryObject"/>
+                  </diagramContents>
+                </diagram:DiagramRepresentationObject>
+              </diagramRepresentation>
+            </xmi:Extension>
+          </ownedDiagram>
+          <ownedDiagram xmi:type="uml:Diagram" xmi:id="_19_0_3_b5902e3_1597852202144_660631_14014" name="Basic Units" visibility="public" ownerOfDiagram="_19_0_3_b5902e3_1597852202154_677539_14129">
+            <xmi:Extension extender="MagicDraw UML 2021x">
+              <diagramRepresentation>
+                <diagram:DiagramRepresentationObject xmlns:binary="http://www.nomagic.com/ns/cameo/esi/client/binary/1.0" xmlns:diagram="http://www.nomagic.com/ns/magicdraw/core/diagram/1.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="_19_0_3_b5902e3_1597852202141_511457_13998" initialFrameSizeSet="true" requiredFeature="DependencyMatrixPlugin#Dependency Matrix;UML_Standard_Profile.mdzip" type="Dependency Matrix" umlType="Class Diagram" xmi:id="_XXBk4440Eee-NOwIYMDspg" xmi:version="2.0">
+                  <diagramContents exporterName="MagicDraw UML" exporterVersion="2021x" xmi:id="_XXBk5I40Eee-NOwIYMDspg">
+                    <binaryObject streamContentID="BLOB-2498f667-46db-430a-ade2-16f76b959555" xmi:id="_XXBk5Y40Eee-NOwIYMDspg" xsi:type="binary:StreamIdentityBinaryObject"/>
+                  </diagramContents>
+                </diagram:DiagramRepresentationObject>
+              </diagramRepresentation>
+            </xmi:Extension>
+          </ownedDiagram>
+        </modelExtension>
+      </xmi:Extension>
+      <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202133_565932_13901" name="Basic Units">
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202135_43737_13918" name="Basic Length">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202128_192755_13834">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650194122_562877_140708">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::length::length" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202135_834279_13921">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650186361_504568_102985">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::length::length[nanometre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202154_180790_14131">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650188500_264415_109792">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::length::length[millimetre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202139_362355_13972">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650184197_68200_89010">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::length::length[metre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202137_44440_13950">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650184197_68200_89010">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::length::length[metre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202153_374878_14118">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650197817_764941_164038">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::length::length[decimetre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202134_56802_13908">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650176685_831550_48171">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::length::length[kilometre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202127_795948_13819">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650197507_72058_162360">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::length::length[centimetre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202152_513048_14096">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504762833653_848553_48268">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Nautical Units::Quantities::Length::length[nautical mile]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202145_392126_14028">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504525655316_575263_41411">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Length::length[foot]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202145_326630_14027">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504525653328_656601_41386">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Length::length[yard]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202115_548621_13772">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504525646498_546513_41336">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Length::length[inch]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202129_410716_13847">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504525651398_191029_41361">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Length::length[mile]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202130_615962_13854" name="Basic Mass">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202140_204462_13988">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650193270_151662_136538">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-4 Mechanics::Quantities::mass::mass" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202106_20907_13665">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650179955_769911_61861">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-4 Mechanics::Quantities::mass::mass[milligram]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202108_21495_13697">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650202383_273056_185530">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-4 Mechanics::Quantities::mass::mass[gram]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202133_631087_13903">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650184728_204346_92547">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-4 Mechanics::Quantities::mass::mass[kilogram]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202106_447895_13669">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504768654855_543874_49487">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Mass::mass[ounce]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202130_993996_13863">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8c4028a_1504269313690_855494_12897">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Mass::mass[pound]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202111_624094_13728" name="Basic Area">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202114_529536_13763">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650185460_822442_97222">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::area::area" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202153_14790_14106">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650181697_71046_76139">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::area::area[square metre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202126_555760_13812">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504708818013_557107_48071">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Area::area[acre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202110_375787_13721">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504686249978_876024_45473">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Area::area[square foot]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202132_445152_13891">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504686086128_760199_44860">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Area::area[square inch]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202129_117775_13846">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504686251515_123939_45478">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Area::area[square yard]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202150_318237_14077">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504686252158_600783_45483">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Area::area[square mile]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202139_23271_13968" name="Basic Volume">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202127_782023_13820">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650191667_380508_126546">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::volume::volume" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202147_931963_14046">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650198447_465711_168384">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::volume::volume[cubic metre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202114_709223_13759">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1506083377553_418334_13278">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Common Units::Quantities::Volume::volume[litre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202108_579753_13692">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504699979949_209248_46802">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Volume::volume[cubic foot]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202104_917345_13651">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504699981222_481490_46807">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Volume::volume[cubic yard]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202116_185876_13790">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504699852137_374863_46743">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Volume::volume[cubic inch]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202140_472177_13983">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504764772305_169520_48782">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Volume::volume[fluid ounce (UK)]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202110_983828_13714">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504765063997_860057_48900">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Volume::volume[fluid ounce (US)]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202139_259928_13970">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504764675651_603368_48752">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Volume::volume[gallon (UK)]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202114_890117_13768">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504765063997_825857_48901">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Volume::volume[gallon (US)]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202105_239484_13662">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504764770674_435105_48778">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Volume::volume[pint (UK)]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202117_310774_13796">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504765063997_277945_48902">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Volume::volume[pint (US)]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202126_621391_13807" name="Basic Time">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202111_695795_13733">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650188512_144339_109917">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::time::time" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202144_433037_14009">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650198891_148719_170889">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::time::time[second]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202155_376495_14136" name="Basic Electric Current">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202132_283334_13881">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650189201_296142_113251">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::IEC80000-6 Electromagnetism::Quantities::electric current::electric current[ampere]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202112_594926_13738">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650188627_40055_110473">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::IEC80000-6 Electromagnetism::Quantities::electric current::electric current" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202151_496262_14083">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650176009_428066_46312">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::IEC80000-6 Electromagnetism::Quantities::electric current::electric current[milliampere]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202147_791691_14048" name="Basic Thermodynamic Temperature">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202149_560078_14071">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650195097_84516_146909">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-5 Thermodynamics::Quantities::thermodynamic temperature::thermodynamic temperature" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202111_671514_13723">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650193666_776688_138662">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-5 Thermodynamics::Quantities::thermodynamic temperature::thermodynamic temperature[kelvin]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202151_592938_14087" name="Basic Amount of Substance">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202111_491235_13729">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650189782_109507_116243">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-9 Physical Chemestry and Molecular Physics::Quantities::amount of substance::amount of substance" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202150_508118_14080">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650189229_159383_113368">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-9 Physical Chemestry and Molecular Physics::Quantities::amount of substance::amount of substance[mole]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202141_463162_13996" name="Basic Luminous Intensity">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202131_233922_13877">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650192064_908818_130251">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-7 Light::Quantities::luminous intensity::luminous intensity" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202155_472974_14148">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650193761_648715_138929">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-7 Light::Quantities::luminous intensity::luminous intensity[candela]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202155_466027_14145" name="Basic Speed and Velocity">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202156_659476_14158">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650203108_876922_189119">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::speed::speed" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202147_391065_14053">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650180999_872881_71027">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::speed::speed[metre per second]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202147_613455_14047">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650203184_691120_189384">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::velocity::velocity" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202133_836932_13904">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650193281_622367_136704">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::velocity::velocity[metre per second]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202153_23024_14115">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1505813200349_817015_83662">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Common Units::Quantities::Speed and Velocity::speed[kilometre per hour]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202115_115089_13779">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1505816028867_649774_42101">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Common Units::Quantities::Speed and Velocity::velocity[kilometre per hour]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202112_708362_13737">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504763086333_87751_48360">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Nautical Units::Quantities::Speed and Velocity::speed[knot]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202155_57127_14138">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504704981209_503127_47460">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Speed and Velocity::speed[foot per second]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202113_653781_13747">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504705074051_445071_47511">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Speed and Velocity::speed[mile per hour]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202136_99859_13934">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504705396560_983648_47549">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Speed and Velocity::velocity[foot per second]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202114_56909_13760">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504705408790_942431_47554">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Speed and Velocity::velocity[mile per hour]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202106_585193_13670" name="Basic Acceleration">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202136_865435_13936">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650189153_746526_112836">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::acceleration::acceleration" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202152_705801_14099">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650198064_856347_165513">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-3 Space and Time::Quantities::acceleration::acceleration[metre per second squared]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202109_963181_13702">
+            <importedElement href="ISO-80000-Extension.mdzip#_19_0beta_8a3027a_1504702845502_790904_47208">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000-Extension::Imperial Units &amp; US Customary Units::Quantities::Acceleration::acceleration[foot per second squared]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202106_741637_13671" name="Basic Mass Density">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202108_217874_13687">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650192872_357244_134795">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-4 Mechanics::Quantities::mass density::mass density" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202131_613830_13870">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650178558_159802_54381">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-4 Mechanics::Quantities::mass density::mass density[kilogram per cubic metre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202136_80477_13926" name="Basic Electric Current Density">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202151_351183_14089">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650198783_26818_170324">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::IEC80000-6 Electromagnetism::Quantities::electric current density::electric current density" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202138_486125_13960">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650185648_30703_98522">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::IEC80000-6 Electromagnetism::Quantities::electric current density::electric current density[ampere per square metre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202139_867954_13971" name="Basic Amount of Substance Concentration">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202140_522617_13985">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650195952_388056_152400">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-9 Physical Chemestry and Molecular Physics::Quantities::amount of substance concentration::amount of substance concentration" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202125_382421_13801">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650181014_906619_71386">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-9 Physical Chemestry and Molecular Physics::Quantities::amount of substance concentration::amount of substance concentration[mole per cubic metre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202135_941694_13912" name="Basic Magnetic Field Strength">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202140_185558_13981">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650188402_442957_108344">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::IEC80000-6 Electromagnetism::Quantities::magnetic field strength::magnetic field strength" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202154_825879_14133">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650194403_461525_142281">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::IEC80000-6 Electromagnetism::Quantities::magnetic field strength::magnetic field strength[ampere per metre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852202146_824668_14037" name="Basic Luminance">
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202143_234832_14002">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650192131_861488_130374">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-7 Light::Quantities::luminance::luminance" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+          <elementImport xmi:type="uml:ElementImport" xmi:id="_19_0_3_b5902e3_1597852202153_883541_14104">
+            <importedElement href="ISO-80000.mdzip#_18_0beta_903028d_1388650191542_644508_126071">
+              <xmi:Extension extender="MagicDraw UML 2021x">
+                <referenceExtension referentPath="ISO-80000::ISO80000-7 Light::Quantities::luminance::luminance[candela per square metre]" referentType="DataType"/>
+              </xmi:Extension>
+            </importedElement>
+          </elementImport>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1597852222119_9581_42599" name="MissileDomain">
+      <xmi:Extension extender="MagicDraw UML 2021x">
+        <modelExtension>
+          <ownedDiagram xmi:type="uml:Diagram" xmi:id="_19_0_3_b5902e3_1597852244895_774899_42600" name="Structure" visibility="public" ownerOfDiagram="_19_0_3_b5902e3_1597852222119_9581_42599">
+            <xmi:Extension extender="MagicDraw UML 2021x">
+              <diagramRepresentation>
+                <diagram:DiagramRepresentationObject xmlns:binary="http://www.nomagic.com/ns/cameo/client/binary/1.0" xmlns:diagram="http://www.nomagic.com/ns/magicdraw/core/diagram/1.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="_19_0_3_b5902e3_1597852244959_768187_42621" initialFrameSizeSet="true" requiredFeature="com.nomagic.magicdraw.plugins.impl.sysml#SysML;UML_Standard_Profile.mdzip;MD_customization_for_SysML.mdzip" type="SysML Block Definition Diagram" umlType="Class Diagram" xmi:id="_viX28OIzEeqv18nzFbtBHg" xmi:version="2.0">
+                  <diagramContents contentHash="f0957bbe9f9605bf8ccf2f719b823f2db160272f" exporterName="MagicDraw UML" exporterVersion="2021x" xmi:id="_viX28eIzEeqv18nzFbtBHg">
+                    <binaryObject streamContentID="BINARY-1575dcf3-314d-4038-ae13-ca4ff39a6e41" xmi:id="_viYeAOIzEeqv18nzFbtBHg" xsi:type="binary:StreamIdentityBinaryObject"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853388712_773009_43889"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853386124_792791_43873"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853348878_354246_43692"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853236585_39407_43477"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853469935_652575_44242"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1602079940898_790940_42406"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853396177_405670_43937"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853412457_427143_43997"/>
+                    <usedObjects href="#_19_0_3_5c601b6_1597876204398_671861_42106"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853388712_270337_43891"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853319065_694343_43632"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853449931_905988_44181"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853265015_685615_43602"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853446896_311121_44167"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853391364_71887_43905"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853265014_456573_43600"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1602079940898_591607_42405"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853176669_309915_43372"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853174122_688917_43356"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853391364_336292_43906"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853393737_459245_43921"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853469935_142732_44243"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853449931_716026_44183"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1602079940898_366182_42404"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853319065_910210_43634"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853398144_258649_43952"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853442679_492065_44150"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853167612_432690_43310"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853176669_78145_43374"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853446896_138689_44166"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853153836_984710_43220"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853388712_129626_43890"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853439142_523101_44133"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853265014_200381_43601"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853442680_978583_44151"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853163085_501856_43265"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853336342_299367_43647"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853422354_458395_44042"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853174123_539099_43358"/>
+                    <usedObjects href="#_19_0_3_5c601b6_1597876219154_48609_42153"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853393737_843536_43923"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853433490_510368_44087"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853452019_944765_44196"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853230769_753574_43432"/>
+                    <usedObjects href="#_19_0_3_5c601b6_1597876219155_233643_42154"/>
+                    <usedObjects href="#_2021x_2_b5902e3_1666726462737_721769_17447"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853469936_985668_44244"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853393737_923708_43922"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853439143_820886_44135"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853396177_549840_43938"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853449931_123021_44182"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853262542_333481_43585"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853364607_176001_43782"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853319065_53965_43633"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853371104_905843_43827"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853442679_660652_44149"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853174122_290062_43357"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853386125_691814_43874"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853391364_877650_43907"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853439142_366633_44134"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853176669_292109_43373"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853396177_655820_43939"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853446895_779976_44165"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853219791_76262_43387"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853241585_354200_43522"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853262542_716866_43584"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853359263_90148_43737"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853386125_806137_43875"/>
+                    <usedObjects href="#_19_0_3_b5902e3_1597853262543_607114_43586"/>
+                    <usedObjects href="#_19_0_3_5c601b6_1597876219154_783682_42152"/>
+                    <usedElements>_19_0_3_b5902e3_1597853449931_716026_44183</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853262542_716866_43584</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853388712_270337_43891</usedElements>
+                    <usedElements>_2021x_2_b5902e3_1666726462737_721769_17447</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853386125_806137_43875</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853439142_366633_44134</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853174123_539099_43358</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853174122_688917_43356</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853396177_549840_43938</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853446895_779976_44165</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853230769_753574_43432</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853449931_123021_44182</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853393737_459245_43921</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853393737_923708_43922</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853396177_655820_43939</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853391364_71887_43905</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853452019_944765_44196</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853265015_685615_43602</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853336342_299367_43647</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853167612_432690_43310</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853219791_76262_43387</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853469935_652575_44242</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853449931_905988_44181</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853176669_78145_43374</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853319065_53965_43633</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853398144_258649_43952</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853442680_978583_44151</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853348878_354246_43692</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853174122_290062_43357</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853442679_660652_44149</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853163085_501856_43265</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853393737_843536_43923</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853422354_458395_44042</usedElements>
+                    <usedElements>_19_0_3_5c601b6_1597876219154_48609_42153</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853371104_905843_43827</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853236585_39407_43477</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853386124_792791_43873</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853319065_910210_43634</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853391364_877650_43907</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853241585_354200_43522</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853265014_456573_43600</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853359263_90148_43737</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853439143_820886_44135</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853469935_142732_44243</usedElements>
+                    <usedElements>_19_0_3_5c601b6_1597876219155_233643_42154</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853469936_985668_44244</usedElements>
+                    <usedElements>_19_0_3_5c601b6_1597876204398_671861_42106</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853446896_138689_44166</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853262542_333481_43585</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853364607_176001_43782</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853391364_336292_43906</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853319065_694343_43632</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853262543_607114_43586</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853265014_200381_43601</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853388712_129626_43890</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853412457_427143_43997</usedElements>
+                    <usedElements>_19_0_3_5c601b6_1597876219154_783682_42152</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1602079940898_366182_42404</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1602079940898_790940_42406</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853442679_492065_44150</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853176669_309915_43372</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1602079940898_591607_42405</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853439142_523101_44133</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853396177_405670_43937</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853446896_311121_44167</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853176669_292109_43373</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853433490_510368_44087</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853388712_773009_43889</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853153836_984710_43220</usedElements>
+                    <usedElements>_19_0_3_b5902e3_1597853386125_691814_43874</usedElements>
+                  </diagramContents>
+                </diagram:DiagramRepresentationObject>
+              </diagramRepresentation>
+            </xmi:Extension>
+          </ownedDiagram>
+        </modelExtension>
+      </xmi:Extension>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853153836_984710_43220" name="MISSILE ASSY">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853174122_290062_43357" name="SEEKER" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853163085_501856_43265" association="_19_0_3_b5902e3_1597853174122_688917_43356"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853386125_691814_43874" name="STRONGBACK" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853336342_299367_43647" association="_19_0_3_b5902e3_1597853386124_792791_43873"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853439142_366633_44134" name="CAS" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853433490_510368_44087" association="_19_0_3_b5902e3_1597853439142_523101_44133"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853442679_492065_44150" name="ORM HARNESS COVER" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853422354_458395_44042" association="_19_0_3_b5902e3_1597853442679_660652_44149"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853446896_138689_44166" name="ORM HARNESS" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853412457_427143_43997" association="_19_0_3_b5902e3_1597853446895_779976_44165"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853449931_123021_44182" name="ROCKET MOTOR" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853398144_258649_43952" association="_19_0_3_b5902e3_1597853449931_905988_44181"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853469935_142732_44243" name="IGNITOR" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853452019_944765_44196" association="_19_0_3_b5902e3_1597853469935_652575_44242"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853163085_501856_43265" name="SEEKER">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853176669_292109_43373" name="DOME" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853167612_432690_43310" association="_19_0_3_b5902e3_1597853176669_309915_43372"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853262542_333481_43585" name="SEEKER ELECTRONICS" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853241585_354200_43522" association="_19_0_3_b5902e3_1597853262542_716866_43584"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853319065_53965_43633" name="GIMBLE ASSY" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853219791_76262_43387" association="_19_0_3_b5902e3_1597853319065_694343_43632"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_5c601b6_1597876219154_48609_42153" name="SEEKER MFG COSTS" visibility="public" aggregation="composite" type="_19_0_3_5c601b6_1597876204398_671861_42106" association="_19_0_3_5c601b6_1597876219154_783682_42152"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_2021x_2_b5902e3_1666726462737_721769_17447" name="xyz" aggregation="composite">
+          <type href="http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML_dataType.Real">
+            <xmi:Extension extender="MagicDraw UML 2021x">
+              <referenceExtension referentPath="SysML::Libraries::PrimitiveValueTypes::Real" referentType="DataType" originalID="_11_5EAPbeta_be00301_1147431819399_50461_1671"/>
+            </xmi:Extension>
+          </type>
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_2021x_2_b5902e3_1666726483635_906083_17449" value="4999.5"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853167612_432690_43310" name="DOME"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853174122_688917_43356">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853174122_290062_43357"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853174123_539099_43358"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853174123_539099_43358" visibility="public" type="_19_0_3_b5902e3_1597853153836_984710_43220" association="_19_0_3_b5902e3_1597853174122_688917_43356"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853176669_309915_43372">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853176669_292109_43373"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853176669_78145_43374"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853176669_78145_43374" visibility="public" type="_19_0_3_b5902e3_1597853163085_501856_43265" association="_19_0_3_b5902e3_1597853176669_309915_43372"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853219791_76262_43387" name="GIMBLE ASSY">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853265014_200381_43601" name="MOTOR" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853230769_753574_43432" association="_19_0_3_b5902e3_1597853265014_456573_43600"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1602079940898_591607_42405" name="BEARINGSSS" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853236585_39407_43477" association="_19_0_3_b5902e3_1602079940898_366182_42404"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853230769_753574_43432" name="MOTOR"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853236585_39407_43477" name="BEARINGSSS"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853241585_354200_43522" name="SEEKER ELECTRONICS"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853262542_716866_43584">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853262542_333481_43585"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853262543_607114_43586"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853262543_607114_43586" visibility="public" type="_19_0_3_b5902e3_1597853163085_501856_43265" association="_19_0_3_b5902e3_1597853262542_716866_43584"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853265014_456573_43600">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853265014_200381_43601"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853265015_685615_43602"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853265015_685615_43602" visibility="public" type="_19_0_3_b5902e3_1597853219791_76262_43387" association="_19_0_3_b5902e3_1597853265014_456573_43600"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853319065_694343_43632">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853319065_53965_43633"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853319065_910210_43634"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853319065_910210_43634" visibility="public" type="_19_0_3_b5902e3_1597853163085_501856_43265" association="_19_0_3_b5902e3_1597853319065_694343_43632"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853336342_299367_43647" name="STRONGBACK">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853388712_129626_43890" name="GUIDANCE ELECTRONICS" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853348878_354246_43692" association="_19_0_3_b5902e3_1597853388712_773009_43889"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853391364_336292_43906" name="WARHEAD" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853359263_90148_43737" association="_19_0_3_b5902e3_1597853391364_71887_43905"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853393737_923708_43922" name="ESAF" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853364607_176001_43782" association="_19_0_3_b5902e3_1597853393737_459245_43921"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853396177_549840_43938" name="HARNESS A" visibility="public" aggregation="composite" type="_19_0_3_b5902e3_1597853371104_905843_43827" association="_19_0_3_b5902e3_1597853396177_405670_43937"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853348878_354246_43692" name="GUIDANCE ELECTRONICS"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853359263_90148_43737" name="WARHEAD"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853364607_176001_43782" name="ESAF"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853371104_905843_43827" name="HARNESS A"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853386124_792791_43873">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853386125_691814_43874"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853386125_806137_43875"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853386125_806137_43875" visibility="public" type="_19_0_3_b5902e3_1597853153836_984710_43220" association="_19_0_3_b5902e3_1597853386124_792791_43873"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853388712_773009_43889">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853388712_129626_43890"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853388712_270337_43891"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853388712_270337_43891" visibility="public" type="_19_0_3_b5902e3_1597853336342_299367_43647" association="_19_0_3_b5902e3_1597853388712_773009_43889"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853391364_71887_43905">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853391364_336292_43906"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853391364_877650_43907"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853391364_877650_43907" visibility="public" type="_19_0_3_b5902e3_1597853336342_299367_43647" association="_19_0_3_b5902e3_1597853391364_71887_43905"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853393737_459245_43921">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853393737_923708_43922"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853393737_843536_43923"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853393737_843536_43923" visibility="public" type="_19_0_3_b5902e3_1597853336342_299367_43647" association="_19_0_3_b5902e3_1597853393737_459245_43921"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853396177_405670_43937">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853396177_549840_43938"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853396177_655820_43939"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853396177_655820_43939" visibility="public" type="_19_0_3_b5902e3_1597853336342_299367_43647" association="_19_0_3_b5902e3_1597853396177_405670_43937"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853398144_258649_43952" name="ROCKET MOTOR"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853412457_427143_43997" name="ORM HARNESS"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853422354_458395_44042" name="ORM HARNESS COVER"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853433490_510368_44087" name="CAS"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853439142_523101_44133">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853439142_366633_44134"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853439143_820886_44135"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853439143_820886_44135" visibility="public" type="_19_0_3_b5902e3_1597853153836_984710_43220" association="_19_0_3_b5902e3_1597853439142_523101_44133"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853442679_660652_44149">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853442679_492065_44150"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853442680_978583_44151"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853442680_978583_44151" visibility="public" type="_19_0_3_b5902e3_1597853153836_984710_43220" association="_19_0_3_b5902e3_1597853442679_660652_44149"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853446895_779976_44165">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853446896_138689_44166"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853446896_311121_44167"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853446896_311121_44167" visibility="public" type="_19_0_3_b5902e3_1597853153836_984710_43220" association="_19_0_3_b5902e3_1597853446895_779976_44165"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853449931_905988_44181">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853449931_123021_44182"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853449931_716026_44183"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853449931_716026_44183" visibility="public" type="_19_0_3_b5902e3_1597853153836_984710_43220" association="_19_0_3_b5902e3_1597853449931_905988_44181"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853452019_944765_44196" name="IGNITOR"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1597853469935_652575_44242">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853469935_142732_44243"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1597853469936_985668_44244"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1597853469936_985668_44244" visibility="public" type="_19_0_3_b5902e3_1597853153836_984710_43220" association="_19_0_3_b5902e3_1597853469935_652575_44242"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_5c601b6_1597876204398_671861_42106" name="SEEKER MFG COSTS"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_5c601b6_1597876219154_783682_42152">
+        <memberEnd xmi:idref="_19_0_3_5c601b6_1597876219154_48609_42153"/>
+        <memberEnd xmi:idref="_19_0_3_5c601b6_1597876219155_233643_42154"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_5c601b6_1597876219155_233643_42154" visibility="public" type="_19_0_3_b5902e3_1597853163085_501856_43265" association="_19_0_3_5c601b6_1597876219154_783682_42152"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1602078178723_929811_42115" name="Instances">
+        <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_b5902e3_1602078189363_733978_42116" name="Instance_A">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054047_973888_42192" name="MISSILE ASSY">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853153836_984710_43220"/>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054081_293632_42194" definingFeature="_19_0_3_b5902e3_1597853439142_366633_44134">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054081_986871_42195" instance="_19_0_3_b5902e3_1602079054080_474295_42193"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_74618_42197" definingFeature="_19_0_3_b5902e3_1597853469935_142732_44243">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_506055_42198" instance="_19_0_3_b5902e3_1602079054082_143459_42196"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_113684_42200" definingFeature="_19_0_3_b5902e3_1597853446896_138689_44166">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_478269_42201" instance="_19_0_3_b5902e3_1602079054083_283942_42199"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_91824_42203" definingFeature="_19_0_3_b5902e3_1597853442679_492065_44150">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_37717_42204" instance="_19_0_3_b5902e3_1602079054083_951806_42202"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_369766_42206" definingFeature="_19_0_3_b5902e3_1597853449931_123021_44182">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_924340_42207" instance="_19_0_3_b5902e3_1602079054083_388034_42205"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_144343_42209" definingFeature="_19_0_3_b5902e3_1597853174122_290062_43357">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_58085_42210" instance="_19_0_3_b5902e3_1602079054083_292354_42208"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_810964_42212" definingFeature="_19_0_3_b5902e3_1597853386125_691814_43874">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_672168_42213" instance="_19_0_3_b5902e3_1602079054083_984987_42211"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054080_474295_42193" name="MISSILE ASSY.CAS">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853433490_510368_44087"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054082_143459_42196" name="missile assy.ignitor">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853452019_944765_44196"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_283942_42199" name="missile assy.orm harness">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853412457_427143_43997"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_951806_42202" name="missile assy.orm harness cover">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853422354_458395_44042"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_388034_42205" name="missile assy.rocket motor">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853398144_258649_43952"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_292354_42208" name="missile assy.seeker">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853163085_501856_43265"/>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_317435_42227" definingFeature="_19_0_3_b5902e3_1597853176669_292109_43373">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_660898_42228" instance="_19_0_3_b5902e3_1602079054083_384339_42226"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_320083_42230" definingFeature="_19_0_3_b5902e3_1597853319065_53965_43633">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_760519_42231" instance="_19_0_3_b5902e3_1602079054083_929276_42229"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_311353_42233" definingFeature="_19_0_3_b5902e3_1597853262542_333481_43585">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_274268_42234" instance="_19_0_3_b5902e3_1602079054083_714477_42232"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054099_335001_42236" definingFeature="_19_0_3_5c601b6_1597876219154_48609_42153">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054099_56361_42237" instance="_19_0_3_b5902e3_1602079054099_50053_42235"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_984987_42211" name="missile assy.strongback">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853336342_299367_43647"/>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_444633_42215" definingFeature="_19_0_3_b5902e3_1597853393737_923708_43922">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_349050_42216" instance="_19_0_3_b5902e3_1602079054083_548708_42214"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_530944_42218" definingFeature="_19_0_3_b5902e3_1597853388712_129626_43890">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_450554_42219" instance="_19_0_3_b5902e3_1602079054083_895934_42217"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_327060_42221" definingFeature="_19_0_3_b5902e3_1597853396177_549840_43938">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_837357_42222" instance="_19_0_3_b5902e3_1602079054083_749134_42220"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054083_585099_42224" definingFeature="_19_0_3_b5902e3_1597853391364_336292_43906">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054083_943792_42225" instance="_19_0_3_b5902e3_1602079054083_212536_42223"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_548708_42214" name="missile assy.strongback.esaf">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853364607_176001_43782"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_895934_42217" name="missile assy.strongback.guidance electronics">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853348878_354246_43692"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_749134_42220" name="missile assy.strongback.harness a">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853371104_905843_43827"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_212536_42223" name="missile assy.strongback.warhead">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853359263_90148_43737"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_384339_42226" name="missile assy.seeker.dome">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853167612_432690_43310"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_929276_42229" name="missile assy.seeker.gimble assy">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853219791_76262_43387"/>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079054099_141032_42239" definingFeature="_19_0_3_b5902e3_1597853265014_200381_43601">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079054099_539942_42240" instance="_19_0_3_b5902e3_1602079054099_526633_42238"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054083_714477_42232" name="missile assy.seeker.seeker electronics">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853241585_354200_43522"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054099_50053_42235" name="missile assy.seeker.seeker mfg costs">
+            <classifier xmi:idref="_19_0_3_5c601b6_1597876204398_671861_42106"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054099_526633_42238" name="missile assy.seeker.gimble assy.motor">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853230769_753574_43432"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079054099_709259_42241" name="missile assy.seeker.gimble assy.bearing[1]">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853236585_39407_43477"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187502_144097_42316" name="missile assy1">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853153836_984710_43220"/>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187524_469588_42318" definingFeature="_19_0_3_b5902e3_1597853439142_366633_44134">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187524_394814_42319" instance="_19_0_3_b5902e3_1602079187524_801376_42317"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187540_980572_42321" definingFeature="_19_0_3_b5902e3_1597853469935_142732_44243">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187541_134148_42322" instance="_19_0_3_b5902e3_1602079187524_864525_42320"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187541_137083_42324" definingFeature="_19_0_3_b5902e3_1597853446896_138689_44166">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187541_974751_42325" instance="_19_0_3_b5902e3_1602079187541_806067_42323"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187541_951116_42327" definingFeature="_19_0_3_b5902e3_1597853442679_492065_44150">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187541_479840_42328" instance="_19_0_3_b5902e3_1602079187541_933055_42326"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187541_365611_42330" definingFeature="_19_0_3_b5902e3_1597853449931_123021_44182">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187541_738498_42331" instance="_19_0_3_b5902e3_1602079187541_159494_42329"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187541_702924_42333" definingFeature="_19_0_3_b5902e3_1597853174122_290062_43357">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187541_427697_42334" instance="_19_0_3_b5902e3_1602079187541_942062_42332"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187541_635148_42336" definingFeature="_19_0_3_b5902e3_1597853386125_691814_43874">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187541_689466_42337" instance="_19_0_3_b5902e3_1602079187541_461770_42335"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187524_801376_42317" name="missile assy1.cas">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853433490_510368_44087"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187524_864525_42320" name="missile assy1.ignitor">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853452019_944765_44196"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187541_806067_42323" name="missile assy1.orm harness">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853412457_427143_43997"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187541_933055_42326" name="missile assy1.orm harness cover">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853422354_458395_44042"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187541_159494_42329" name="missile assy1.rocket motor">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853398144_258649_43952"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187541_942062_42332" name="missile assy1.seeker">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853163085_501856_43265"/>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187557_111971_42351" definingFeature="_19_0_3_b5902e3_1597853176669_292109_43373">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187557_58263_42352" instance="_19_0_3_b5902e3_1602079187557_221614_42350"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187557_222514_42354" definingFeature="_19_0_3_b5902e3_1597853319065_53965_43633">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187557_706063_42355" instance="_19_0_3_b5902e3_1602079187557_115335_42353"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187557_198537_42357" definingFeature="_19_0_3_b5902e3_1597853262542_333481_43585">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187557_128557_42358" instance="_19_0_3_b5902e3_1602079187557_767958_42356"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187557_377905_42360" definingFeature="_19_0_3_5c601b6_1597876219154_48609_42153">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187557_390384_42361" instance="_19_0_3_b5902e3_1602079187557_629309_42359"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187541_461770_42335" name="missile assy1.strongback">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853336342_299367_43647"/>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187541_57900_42339" definingFeature="_19_0_3_b5902e3_1597853393737_923708_43922">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187541_13542_42340" instance="_19_0_3_b5902e3_1602079187541_137512_42338"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187541_27474_42342" definingFeature="_19_0_3_b5902e3_1597853388712_129626_43890">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187541_234940_42343" instance="_19_0_3_b5902e3_1602079187541_935164_42341"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187541_565121_42345" definingFeature="_19_0_3_b5902e3_1597853396177_549840_43938">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187541_717095_42346" instance="_19_0_3_b5902e3_1602079187541_824594_42344"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187557_45770_42348" definingFeature="_19_0_3_b5902e3_1597853391364_336292_43906">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187557_862137_42349" instance="_19_0_3_b5902e3_1602079187541_348669_42347"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187541_137512_42338" name="missile assy1.strongback.esaf">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853364607_176001_43782"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187541_935164_42341" name="missile assy1.strongback.guidance electronics">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853348878_354246_43692"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187541_824594_42344" name="missile assy1.strongback.harness a">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853371104_905843_43827"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187541_348669_42347" name="missile assy1.strongback.warhead">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853359263_90148_43737"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187557_221614_42350" name="missile assy1.seeker.dome">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853167612_432690_43310"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187557_115335_42353" name="missile assy1.seeker.gimble assy">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853219791_76262_43387"/>
+            <slot xmi:type="uml:Slot" xmi:id="_19_0_3_b5902e3_1602079187557_667189_42363" definingFeature="_19_0_3_b5902e3_1597853265014_200381_43601">
+              <value xmi:type="uml:InstanceValue" xmi:id="_19_0_3_b5902e3_1602079187557_40837_42364" instance="_19_0_3_b5902e3_1602079187557_389779_42362"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187557_767958_42356" name="missile assy1.seeker.seeker electronics">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853241585_354200_43522"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187557_629309_42359" name="missile assy1.seeker.seeker mfg costs">
+            <classifier xmi:idref="_19_0_3_5c601b6_1597876204398_671861_42106"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187557_389779_42362" name="missile assy1.seeker.gimble assy.motor">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853230769_753574_43432"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_19_0_3_b5902e3_1602079187557_511678_42365" name="missile assy1.seeker.gimble assy.bearing[1]">
+            <classifier xmi:idref="_19_0_3_b5902e3_1597853236585_39407_43477"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_b5902e3_1602079940898_366182_42404">
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1602079940898_591607_42405"/>
+        <memberEnd xmi:idref="_19_0_3_b5902e3_1602079940898_790940_42406"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_19_0_3_b5902e3_1602079940898_790940_42406" visibility="public" type="_19_0_3_b5902e3_1597853219791_76262_43387" association="_19_0_3_b5902e3_1602079940898_366182_42404"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_19_0_3_b5902e3_1597852202134_143602_13910">
+      <appliedProfile href="http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML">
+        <xmi:Extension extender="MagicDraw UML 2021x">
+          <referenceExtension referentPath="SysML" referentType="Profile" originalID="_11_5EAPbeta_be00301_1147434586638_637562_1900"/>
+        </xmi:Extension>
+      </appliedProfile>
+    </profileApplication>
+  </uml:Model>
+  <xmi:Extension extender="MagicDraw UML 2021x">
+    <stereotypesHREFS>
+      <stereotype name="MagicDraw_Profile:additionalPackageImport" stereotypeHREF="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_0beta_9250292_1504527525562_901741_4507"/>
+      <tag name="MagicDraw_Profile:additionalPackageImport:base_Element" tagID="_10_0EAPbeta_be00301_1123081772098_411862_275" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_10_0EAPbeta_be00301_1123081772098_411862_275"/>
+      <tag name="MagicDraw_Profile:additionalPackageImport:base_Element" tagID="_12_1_8f90291_1173963939937_52316_99" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_12_1_8f90291_1173963939937_52316_99"/>
+      <tag name="MagicDraw_Profile:additionalPackageImport:treatAsAuxiliaryInOwningProject" tagID="_19_0_8760276_1515156810551_352594_4505" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_0_8760276_1515156810551_352594_4505"/>
+      <tag name="MagicDraw_Profile:additionalPackageImport:treatAsAuxiliaryInOwningProject" tagID="_19_0_8760276_1516028276191_917381_4503" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_0_8760276_1516028276191_917381_4503"/>
+      <tag name="MagicDraw_Profile:additionalPackageImport:applyFor" tagID="_20_0_2de011c_1590748105345_123757_1265" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_20_0_2de011c_1590748105345_123757_1265"/>
+      <stereotype name="MagicDraw_Profile:auxiliaryResource" stereotypeHREF="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_12_1_8f90291_1173963323875_662612_98"/>
+      <tag name="MagicDraw_Profile:auxiliaryResource:base_Element" tagID="_10_0EAPbeta_be00301_1123081772098_411862_275" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_10_0EAPbeta_be00301_1123081772098_411862_275"/>
+      <tag name="MagicDraw_Profile:auxiliaryResource:treatAsAuxiliaryInOwningProject" tagID="_19_0_8760276_1515156810551_352594_4505" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_0_8760276_1515156810551_352594_4505"/>
+      <stereotype name="MagicDraw_Profile:DiagramInfo" stereotypeHREF="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_9_0_be00301_1108044380615_150487_0"/>
+      <tag name="MagicDraw_Profile:DiagramInfo:base_Element" tagID="_10_0EAPbeta_be00301_1123081772098_411862_275" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_10_0EAPbeta_be00301_1123081772098_411862_275"/>
+      <tag name="MagicDraw_Profile:DiagramInfo:Creation_date" tagID="_be00301_1073306188629_537791_2" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_be00301_1073306188629_537791_2"/>
+      <tag name="MagicDraw_Profile:DiagramInfo:Author" tagID="_be00301_1077726770128_871366_1" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_be00301_1077726770128_871366_1"/>
+      <tag name="MagicDraw_Profile:DiagramInfo:Modification_date" tagID="_be00301_1073394345322_922552_1" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_be00301_1073394345322_922552_1"/>
+      <tag name="MagicDraw_Profile:DiagramInfo:Last_modified_by" tagID="_16_8beta_8ca0285_1257244649124_794756_344" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_16_8beta_8ca0285_1257244649124_794756_344"/>
+      <stereotype name="Dependency_Matrix_Profile:DependencyMatrix" stereotypeHREF="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189236_873942_2915"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:base_Element" tagID="_10_0EAPbeta_be00301_1123081772098_411862_275" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_10_0EAPbeta_be00301_1123081772098_411862_275"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:columnTextDirection" tagID="_17_0_3beta_8e10289_1348753189250_976469_2933" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189250_976469_2933"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:columnOwnerDisplayMode" tagID="_17_0_3beta_8e10289_1348753189288_719322_3041" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189288_719322_3041"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:showInnerDependencies" tagID="_17_0_3beta_8e10289_1348753189308_306094_3073" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189308_306094_3073"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:showElements" tagID="_17_0_3beta_8e10289_1348753189316_438832_3087" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189316_438832_3087"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:columnHeaderHeight" tagID="_17_0_3beta_8e10289_1348753189264_979131_2971" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189264_979131_2971"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:rowHeaderWidth" tagID="_17_0_3beta_8e10289_1348753189264_72200_2968" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189264_72200_2968"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:dependencyCriteria" tagID="_17_0_3beta_8e10289_1348753189283_64144_3030" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189283_64144_3030"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:columnCollapsedNodes" tagID="_17_0_4beta_8e10289_1359443478322_371106_3007" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8e10289_1359443478322_371106_3007"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:rowCollapsedNodes" tagID="_17_0_4beta_8e10289_1359443708558_424258_3014" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8e10289_1359443708558_424258_3014"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:rowOwnerDisplayMode" tagID="_17_0_4beta_8ca0285_1361197666671_94490_3026" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8ca0285_1361197666671_94490_3026"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:direction" tagID="_17_0_4beta_8f90291_1361803516746_297162_3018" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8f90291_1361803516746_297162_3018"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:suppressCriteriaArea" tagID="_17_0_4beta_8f90291_1361805357951_82494_3264" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8f90291_1361805357951_82494_3264"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:descriptionArea" tagID="_17_0_4beta_8f90291_1361805429858_801243_3284" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8f90291_1361805429858_801243_3284"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:hideTypes" tagID="_17_0_4beta_8f90291_1361805612723_667253_3304" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8f90291_1361805612723_667253_3304"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:hideScope" tagID="_17_0_4beta_8f90291_1361805739775_551814_3329" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8f90291_1361805739775_551814_3329"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:hideDependencyCriteria" tagID="_17_0_4beta_8f90291_1361805778266_117541_3346" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8f90291_1361805778266_117541_3346"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:rowSortingMode" tagID="_17_0_4beta_8f90291_1361806174665_674570_3425" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8f90291_1361806174665_674570_3425"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:columnSortingMode" tagID="_17_0_4beta_8f90291_1361806780185_829302_3479" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8f90291_1361806780185_829302_3479"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:readOnly" tagID="_17_0_4beta_8e10289_1361896019117_533508_3014" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8e10289_1361896019117_533508_3014"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:takeWholeModelAsScope" tagID="_17_0_4beta_8e10289_1362067034050_524960_3347" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_4beta_8e10289_1362067034050_524960_3347"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:columnCustomOrder" tagID="_17_0_5beta_8e10289_1370856956242_284758_3129" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_5beta_8e10289_1370856956242_284758_3129"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:rowCustomOrder" tagID="_17_0_5beta_8e10289_1370857054963_105141_3132" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_5beta_8e10289_1370857054963_105141_3132"/>
+      <tag name="Dependency_Matrix_Profile:DependencyMatrix:legendLocation" tagID="_18_3beta_8ba0279_1441020629797_63107_4098" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_18_3beta_8ba0279_1441020629797_63107_4098"/>
+      <stereotype name="Dependency_Matrix_Profile:MatrixFilter" stereotypeHREF="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189306_38038_3061"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:base_Element" tagID="_10_0EAPbeta_be00301_1123081772098_411862_275" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_10_0EAPbeta_be00301_1123081772098_411862_275"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:rowElementType" tagID="_17_0_3beta_8e10289_1348753189250_698438_2944" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189250_698438_2944"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:rowScope" tagID="_17_0_3beta_8e10289_1348753189269_689567_2994" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189269_689567_2994"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:removedRowElements" tagID="_17_0_3beta_8e10289_1348753189234_132241_2888" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189234_132241_2888"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:includeSubtypesOfRowTypes" tagID="_17_0_3beta_8e10289_1348753189236_123477_2907" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189236_123477_2907"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:columnScope" tagID="_17_0_3beta_8e10289_1348753189264_179517_2974" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189264_179517_2974"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:removedColumnElements" tagID="_17_0_3beta_8e10289_1348753189250_349424_2939" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189250_349424_2939"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:columnElementType" tagID="_17_0_3beta_8e10289_1348753189284_755266_3033" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189284_755266_3033"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:includeSubtypesOfColumnTypes" tagID="_17_0_3beta_8e10289_1348753189235_302185_2895" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189235_302185_2895"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:columnPropertyFilter" tagID="_17_0_3beta_8e10289_1348753189320_16317_3090" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189320_16317_3090"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:rowPropertyFilter" tagID="_17_0_3beta_8e10289_1348753189269_548324_2992" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_17_0_3beta_8e10289_1348753189269_548324_2992"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:columnScopeDefined" tagID="_18_1beta_8ca0285_1405342797528_838030_3867" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_18_1beta_8ca0285_1405342797528_838030_3867"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:rowScopeDefined" tagID="_18_1beta_8ca0285_1405340372845_189526_3867" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_18_1beta_8ca0285_1405340372845_189526_3867"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:rowQuery" tagID="_19_0beta_936029d_1484223059662_424184_4504" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_0beta_936029d_1484223059662_424184_4504"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:columnQuery" tagID="_19_0beta_936029d_1484223136316_827848_4511" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_0beta_936029d_1484223136316_827848_4511"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:includeCustomTypesOfRowTypes" tagID="_19_1beta_2de011c_1567667162851_770176_4796" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_1beta_2de011c_1567667162851_770176_4796"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:includeCustomTypesOfColumnTypes" tagID="_19_1beta_2de011c_1567667227342_417368_4800" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_1beta_2de011c_1567667227342_417368_4800"/>
+      <tag name="Dependency_Matrix_Profile:MatrixFilter:includeAdditionalContent" tagID="_2021x_1_2de011c_1605276679245_644917_1269" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_2021x_1_2de011c_1605276679245_644917_1269"/>
+      <stereotype name="MagicDraw_Profile:additionalElementImport" stereotypeHREF="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_0beta_9250292_1504527525561_959599_4506"/>
+      <tag name="MagicDraw_Profile:additionalElementImport:base_Element" tagID="_10_0EAPbeta_be00301_1123081772098_411862_275" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_10_0EAPbeta_be00301_1123081772098_411862_275"/>
+      <tag name="MagicDraw_Profile:additionalElementImport:base_Element" tagID="_12_1_8f90291_1173963939937_52316_99" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_12_1_8f90291_1173963939937_52316_99"/>
+      <tag name="MagicDraw_Profile:additionalElementImport:treatAsAuxiliaryInOwningProject" tagID="_19_0_8760276_1515156810551_352594_4505" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_0_8760276_1515156810551_352594_4505"/>
+      <tag name="MagicDraw_Profile:additionalElementImport:treatAsAuxiliaryInOwningProject" tagID="_19_0_8760276_1516028258586_312890_4499" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_19_0_8760276_1516028258586_312890_4499"/>
+      <stereotype name="sysml:Block" stereotypeHREF="local:/PROJECT-44892a3bf693c0a47eb2f3bf10930f?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_11_5EAPbeta_be00301_1147424179914_458922_958"/>
+      <tag name="sysml:Block:isEncapsulated" tagID="_11_5EAPbeta_be00301_1147424201876_860708_1049" tagURI="local:/PROJECT-44892a3bf693c0a47eb2f3bf10930f?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_11_5EAPbeta_be00301_1147424201876_860708_1049"/>
+      <stereotype name="MD_Customization_for_SysML__additional_stereotypes:PartProperty" stereotypeHREF="local:/PROJECT-9b4d2b1641e6203934d95e7bde5fe08?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_15_0_be00301_1199377756297_348405_2678"/>
+      <tag name="MD_Customization_for_SysML__additional_stereotypes:PartProperty:base_Element" tagID="_10_0EAPbeta_be00301_1123081772098_411862_275" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_10_0EAPbeta_be00301_1123081772098_411862_275"/>
+      <tag name="MD_Customization_for_SysML__additional_stereotypes:PartProperty:base_Property" tagID="_11_5EAPbeta_be00301_1147424449672_715796_1055" tagURI="local:/PROJECT-9b4d2b1641e6203934d95e7bde5fe08?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_11_5EAPbeta_be00301_1147424449672_715796_1055"/>
+      <stereotype name="MD_Customization_for_SysML__additional_stereotypes:ValueProperty" stereotypeHREF="local:/PROJECT-9b4d2b1641e6203934d95e7bde5fe08?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_12_0_be00301_1164123483951_695645_2041"/>
+      <tag name="MD_Customization_for_SysML__additional_stereotypes:ValueProperty:base_Element" tagID="_10_0EAPbeta_be00301_1123081772098_411862_275" tagURI="local:/PROJECT-877558e9224f114d50dea1f39a1c119?resource=com.nomagic.magicdraw.uml_umodel.shared_umodel#_10_0EAPbeta_be00301_1123081772098_411862_275"/>
+    </stereotypesHREFS>
+  </xmi:Extension>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202107_337124_13682" base_PackageImport="_19_0_3_b5902e3_1597852202154_730402_14128" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202115_522058_13776" base_PackageImport="_19_0_3_b5902e3_1597852202140_411928_13979" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202136_419094_13925" base_PackageImport="_19_0_3_b5902e3_1597852202151_707601_14082" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202155_210217_14141" base_PackageImport="_19_0_3_b5902e3_1597852202113_472615_13751" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202137_52595_13944" base_PackageImport="_19_0_3_b5902e3_1597852202144_447862_14013" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202109_902855_13700" base_PackageImport="_19_0_3_b5902e3_1597852202154_371059_14125" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202143_220977_14005" base_PackageImport="_19_0_3_b5902e3_1597852202146_576393_14038" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202127_140841_13818" base_PackageImport="_19_0_3_b5902e3_1597852202115_677277_13771" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202126_412218_13804" base_PackageImport="_19_0_3_b5902e3_1597852202110_284040_13716" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202108_402404_13688" base_PackageImport="_19_0_3_b5902e3_1597852202135_734407_13916" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202104_585964_13652" base_PackageImport="_19_0_3_b5902e3_1597852202154_349100_14119" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202131_608018_13873" base_PackageImport="_19_0_3_b5902e3_1597852202136_983124_13924" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202153_211142_14114" base_PackageImport="_19_0_3_b5902e3_1597852202129_272854_13848" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202110_281441_13713" base_ElementImport="_19_0_3_b5902e3_1597852202135_834279_13921" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202112_537623_13742" base_ElementImport="_19_0_3_b5902e3_1597852202154_180790_14131" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202137_475668_13951" base_ElementImport="_19_0_3_b5902e3_1597852202127_795948_13819" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202143_685313_14007" base_ElementImport="_19_0_3_b5902e3_1597852202128_192755_13834" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202126_171288_13810" base_PackageImport="_19_0_3_b5902e3_1597852202147_793964_14044" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202154_152545_14135" base_ElementImport="_19_0_3_b5902e3_1597852202145_326630_14027" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202115_340961_13777" base_ElementImport="_19_0_3_b5902e3_1597852202129_410716_13847" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202140_192939_13984" base_ElementImport="_19_0_3_b5902e3_1597852202115_548621_13772" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202138_355472_13958" base_ElementImport="_19_0_3_b5902e3_1597852202145_392126_14028" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202113_435126_13749" base_ElementImport="_19_0_3_b5902e3_1597852202152_513048_14096" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202133_119776_13897" base_ElementImport="_19_0_3_b5902e3_1597852202108_21495_13697" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202146_935978_14035" base_ElementImport="_19_0_3_b5902e3_1597852202139_362355_13972" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202149_580136_14067" base_ElementImport="_19_0_3_b5902e3_1597852202153_374878_14118" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202154_385025_14127" base_ElementImport="_19_0_3_b5902e3_1597852202106_447895_13669" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:auxiliaryResource xmi:id="_19_0_3_b5902e3_1597852202147_739166_14045" base_Element="_19_0_3_b5902e3_1597852202154_677539_14129" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202152_137769_14095" base_ElementImport="_19_0_3_b5902e3_1597852202133_631087_13903" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202132_474692_13893" base_ElementImport="_19_0_3_b5902e3_1597852202126_555760_13812" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202127_593249_13821" base_ElementImport="_19_0_3_b5902e3_1597852202110_375787_13721" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202130_997902_13867" base_PackageImport="_19_0_3_b5902e3_1597852202143_477410_14008" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202154_995874_14122" base_ElementImport="_19_0_3_b5902e3_1597852202134_56802_13908" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202155_707893_14149" base_ElementImport="_19_0_3_b5902e3_1597852202140_204462_13988" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202138_651792_13961" base_ElementImport="_19_0_3_b5902e3_1597852202130_993996_13863" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalPackageImport xmi:id="_19_0_3_b5902e3_1597852202139_128729_13966" base_PackageImport="_19_0_3_b5902e3_1597852202132_843221_13887" treatAsAuxiliaryInOwningProject="true">
+    <applyFor href="http://www.omg.org/spec/UML/20131001/UML.xmi#ValueSpecification"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0_be00301_1164123483951_695645_2041"/>
+    <applyFor href="MD_customization_for_SysML.mdzip#_12_0EAPbeta_be00301_1161355503976_51059_459"/>
+  </MagicDraw_Profile:additionalPackageImport>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202117_215403_13798" base_ElementImport="_19_0_3_b5902e3_1597852202147_931963_14046" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202105_289563_13663" base_ElementImport="_19_0_3_b5902e3_1597852202110_983828_13714" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202112_288813_13740" base_ElementImport="_19_0_3_b5902e3_1597852202108_579753_13692" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202127_568732_13817" base_ElementImport="_19_0_3_b5902e3_1597852202139_259928_13970" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202138_781810_13956" base_ElementImport="_19_0_3_b5902e3_1597852202114_890117_13768" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202112_186031_13745" base_ElementImport="_19_0_3_b5902e3_1597852202140_472177_13983" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202116_488571_13794" base_ElementImport="_19_0_3_b5902e3_1597852202114_709223_13759" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202139_336396_13962" base_ElementImport="_19_0_3_b5902e3_1597852202105_239484_13662" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202132_245150_13892" base_ElementImport="_19_0_3_b5902e3_1597852202117_310774_13796" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202112_830382_13744" base_ElementImport="_19_0_3_b5902e3_1597852202137_44440_13950" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202144_146216_14011" base_ElementImport="_19_0_3_b5902e3_1597852202144_433037_14009" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202140_389610_13982" base_ElementImport="_19_0_3_b5902e3_1597852202111_695795_13733" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202131_997286_13875" base_ElementImport="_19_0_3_b5902e3_1597852202127_782023_13820" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202137_891446_13941" base_ElementImport="_19_0_3_b5902e3_1597852202112_594926_13738" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202116_958317_13783" base_ElementImport="_19_0_3_b5902e3_1597852202132_283334_13881" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202111_516574_13730" base_ElementImport="_19_0_3_b5902e3_1597852202116_185876_13790" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202131_517075_13872" base_ElementImport="_19_0_3_b5902e3_1597852202106_20907_13665" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202131_595717_13878" base_ElementImport="_19_0_3_b5902e3_1597852202132_445152_13891" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202114_482493_13762" base_ElementImport="_19_0_3_b5902e3_1597852202104_917345_13651" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202106_190583_13672" base_ElementImport="_19_0_3_b5902e3_1597852202147_391065_14053" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202129_131768_13841" base_ElementImport="_19_0_3_b5902e3_1597852202129_117775_13846" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202100_844901_13650" base_ElementImport="_19_0_3_b5902e3_1597852202151_496262_14083" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202132_557131_13890" base_ElementImport="_19_0_3_b5902e3_1597852202153_14790_14106" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202109_914949_13707" base_ElementImport="_19_0_3_b5902e3_1597852202150_318237_14077" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202126_944552_13809" base_ElementImport="_19_0_3_b5902e3_1597852202133_836932_13904" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202153_901962_14107" base_ElementImport="_19_0_3_b5902e3_1597852202112_708362_13737" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202134_753737_13909" base_ElementImport="_19_0_3_b5902e3_1597852202155_57127_14138" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202114_462591_13766" base_ElementImport="_19_0_3_b5902e3_1597852202114_529536_13763" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202146_853102_14041" base_ElementImport="_19_0_3_b5902e3_1597852202111_491235_13729" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202115_224981_13778" base_ElementImport="_19_0_3_b5902e3_1597852202113_653781_13747" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202141_52287_13993" base_ElementImport="_19_0_3_b5902e3_1597852202150_508118_14080" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202135_95967_13915" base_ElementImport="_19_0_3_b5902e3_1597852202115_115089_13779" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202112_918980_13735" base_ElementImport="_19_0_3_b5902e3_1597852202136_865435_13936" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202147_198440_14049" base_ElementImport="_19_0_3_b5902e3_1597852202114_56909_13760" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202136_521776_13927" base_ElementImport="_19_0_3_b5902e3_1597852202108_217874_13687" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202140_960888_13980" base_ElementImport="_19_0_3_b5902e3_1597852202151_351183_14089" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202113_761095_13752" base_ElementImport="_19_0_3_b5902e3_1597852202153_23024_14115" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202105_819372_13658" base_ElementImport="_19_0_3_b5902e3_1597852202136_99859_13934" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202139_474099_13964" base_ElementImport="_19_0_3_b5902e3_1597852202138_486125_13960" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202133_399799_13900" base_ElementImport="_19_0_3_b5902e3_1597852202140_522617_13985" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202126_259190_13813" base_ElementImport="_19_0_3_b5902e3_1597852202140_185558_13981" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202126_940298_13805" base_ElementImport="_19_0_3_b5902e3_1597852202143_234832_14002" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202115_418606_13770" base_ElementImport="_19_0_3_b5902e3_1597852202153_883541_14104" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202136_367379_13923" base_ElementImport="_19_0_3_b5902e3_1597852202131_233922_13877" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202107_405451_13685" base_ElementImport="_19_0_3_b5902e3_1597852202154_825879_14133" treatAsAuxiliaryInOwningProject="true"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853174146_621257_43365" base_Property="_19_0_3_b5902e3_1597853174122_290062_43357"/>
+  <MagicDraw_Profile:DiagramInfo xmi:id="_19_0_3_b5902e3_1597852244946_897119_42612" base_Diagram="_19_0_3_b5902e3_1597852244895_774899_42600" Creation_date="8/19/20 11:50 AM" Modification_date="10/25/22, 4:44 PM" Author="jdehart" Last_modified_by="jdehart"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853153836_23058_43221" base_Class="_19_0_3_b5902e3_1597853153836_984710_43220"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853449938_990949_44190" base_Property="_19_0_3_b5902e3_1597853449931_123021_44182"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853442705_897741_44158" base_Property="_19_0_3_b5902e3_1597853442679_492065_44150"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202108_525368_13693" base_ElementImport="_19_0_3_b5902e3_1597852202156_659476_14158" treatAsAuxiliaryInOwningProject="true"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853469944_559506_44251" base_Property="_19_0_3_b5902e3_1597853469935_142732_44243"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202140_744793_13989" base_ElementImport="_19_0_3_b5902e3_1597852202147_613455_14047" treatAsAuxiliaryInOwningProject="true"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853163085_744879_43266" base_Class="_19_0_3_b5902e3_1597853163085_501856_43265"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853319086_533260_43641" base_Property="_19_0_3_b5902e3_1597853319065_53965_43633"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853386158_442967_43882" base_Property="_19_0_3_b5902e3_1597853386125_691814_43874"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_5c601b6_1597876219198_864223_42161" base_Property="_19_0_3_5c601b6_1597876219154_48609_42153"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853439158_356462_44142" base_Property="_19_0_3_b5902e3_1597853439142_366633_44134"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853167613_532614_43311" base_Class="_19_0_3_b5902e3_1597853167612_432690_43310"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853265030_593403_43609" base_Property="_19_0_3_b5902e3_1597853265014_200381_43601"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1602079940908_596798_42413" base_Property="_19_0_3_b5902e3_1602079940898_591607_42405"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202147_265095_14057" base_ElementImport="_19_0_3_b5902e3_1597852202131_613830_13870" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202130_881655_13857" base_ElementImport="_19_0_3_b5902e3_1597852202125_382421_13801" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202112_453482_13739" base_ElementImport="_19_0_3_b5902e3_1597852202109_963181_13702" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202113_491137_13753" base_ElementImport="_19_0_3_b5902e3_1597852202111_671514_13723" treatAsAuxiliaryInOwningProject="true"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202109_558934_13706" base_ElementImport="_19_0_3_b5902e3_1597852202152_705801_14099" treatAsAuxiliaryInOwningProject="true"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853241585_179633_43523" base_Class="_19_0_3_b5902e3_1597853241585_354200_43522"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853388719_540646_43898" base_Property="_19_0_3_b5902e3_1597853388712_129626_43890"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202130_362693_13858" base_ElementImport="_19_0_3_b5902e3_1597852202149_560078_14071" treatAsAuxiliaryInOwningProject="true"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853393746_285708_43930" base_Property="_19_0_3_b5902e3_1597853393737_923708_43922"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853359263_568216_43738" base_Class="_19_0_3_b5902e3_1597853359263_90148_43737"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853236585_834675_43478" base_Class="_19_0_3_b5902e3_1597853236585_39407_43477"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853371104_459829_43828" base_Class="_19_0_3_b5902e3_1597853371104_905843_43827"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853412457_607050_43998" base_Class="_19_0_3_b5902e3_1597853412457_427143_43997"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853230769_963634_43433" base_Class="_19_0_3_b5902e3_1597853230769_753574_43432"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853398144_914822_43953" base_Class="_19_0_3_b5902e3_1597853398144_258649_43952"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853422354_285202_44043" base_Class="_19_0_3_b5902e3_1597853422354_458395_44042"/>
+  <sysml:Block xmi:id="_19_0_3_5c601b6_1597876204400_784421_42107" base_Class="_19_0_3_5c601b6_1597876204398_671861_42106"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853176675_702438_43381" base_Property="_19_0_3_b5902e3_1597853176669_292109_43373"/>
+  <MD_Customization_for_SysML__additional_stereotypes:ValueProperty xmi:id="_2021x_2_b5902e3_1666726462737_721769_17447_application" base_Property="_2021x_2_b5902e3_1666726462737_721769_17447"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853452020_619053_44197" base_Class="_19_0_3_b5902e3_1597853452019_944765_44196"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853433490_104800_44088" base_Class="_19_0_3_b5902e3_1597853433490_510368_44087"/>
+  <MagicDraw_Profile:additionalElementImport xmi:id="_19_0_3_b5902e3_1597852202147_908475_14043" base_ElementImport="_19_0_3_b5902e3_1597852202155_472974_14148" treatAsAuxiliaryInOwningProject="true"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853262558_596146_43593" base_Property="_19_0_3_b5902e3_1597853262542_333481_43585"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853446918_72002_44174" base_Property="_19_0_3_b5902e3_1597853446896_138689_44166"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853219792_137608_43388" base_Class="_19_0_3_b5902e3_1597853219791_76262_43387"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853364607_419655_43783" base_Class="_19_0_3_b5902e3_1597853364607_176001_43782"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853348878_752650_43693" base_Class="_19_0_3_b5902e3_1597853348878_354246_43692"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853396183_265020_43946" base_Property="_19_0_3_b5902e3_1597853396177_549840_43938"/>
+  <MagicDraw_Profile:auxiliaryResource xmi:id="_19_0_3_b5902e3_1597852202148_958522_14060" base_Element="_19_0_3_b5902e3_1597852202134_143602_13910" treatAsAuxiliaryInOwningProject="true"/>
+  <sysml:Block xmi:id="_19_0_3_b5902e3_1597853336342_357550_43648" base_Class="_19_0_3_b5902e3_1597853336342_299367_43647"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_19_0_3_b5902e3_1597853391386_248569_43914" base_Property="_19_0_3_b5902e3_1597853391364_336292_43906"/>
+  <MagicDraw_Profile:DiagramInfo xmi:id="_19_0_3_b5902e3_1597852202110_847985_13717" base_Diagram="_19_0_3_b5902e3_1597852202153_22331_14105" Creation_date="17.8.16 16.02" Modification_date="8/19/20 11:50 AM" Author="donmaz" Last_modified_by="jdehart"/>
+  <Dependency_Matrix_Profile:DependencyMatrix xmi:id="_19_0_3_b5902e3_1597852202110_847985_13717application1" base_Diagram="_19_0_3_b5902e3_1597852202153_22331_14105" columnTextDirection="Vertical" columnOwnerDisplayMode="Compact tree" showInnerDependencies="true" showElements="All" columnHeaderHeight="247" rowHeaderWidth="269" rowOwnerDisplayMode="Compact tree" direction="Row to column" suppressCriteriaArea="false" hideTypes="false" hideScope="false" hideDependencyCriteria="false" rowSortingMode="Ascending" columnSortingMode="Ascending" readOnly="false" takeWholeModelAsScope="true" legendLocation="Top-Left Corner">
+    <dependencyCriteria>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;callExpressionSpecification includeCustomTypes="true" includeSubtypes="false" xmlns="http://www.nomagic.com/schemas/MagicDraw/StructuredExpression/2013"&gt;
+    &lt;taggedValues&gt;
+        &lt;entry key="name"&gt;
+            &lt;value&gt;Package Import&lt;/value&gt;
+        &lt;/entry&gt;
+    &lt;/taggedValues&gt;
+    &lt;argument xsi:type="lookupExpressionSpecification" symbol="THIS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/&gt;
+    &lt;expression xsi:type="dslRelationExpressionSpecification" stereotype="_19_0beta_9250292_1504527525562_901741_4507" direction="DIRECT" includeCustomTypes="true" includeSubtypes="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/&gt;
+&lt;/callExpressionSpecification&gt;
+</dependencyCriteria>
+  </Dependency_Matrix_Profile:DependencyMatrix>
+  <Dependency_Matrix_Profile:MatrixFilter xmi:id="_19_0_3_b5902e3_1597852202110_847985_13717application2" base_Diagram="_19_0_3_b5902e3_1597852202153_22331_14105" includeSubtypesOfRowTypes="true" includeSubtypesOfColumnTypes="true" columnScopeDefined="true" rowScopeDefined="true" columnScope="_19_0_3_b5902e3_1597852202133_565932_13901" rowQuery="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&#10;&lt;unionExpressionSpecification xmlns=&quot;http://www.nomagic.com/schemas/MagicDraw/StructuredExpression/2013&quot;&gt;&#10;    &lt;taggedValues&gt;&#10;        &lt;entry key=&quot;name&quot;&gt;&#10;            &lt;value&gt;Query&lt;/value&gt;&#10;        &lt;/entry&gt;&#10;        &lt;entry key=&quot;ROOT_UNION&quot;&gt;&#10;            &lt;value&gt;true&lt;/value&gt;&#10;        &lt;/entry&gt;&#10;    &lt;/taggedValues&gt;&#10;    &lt;value xsi:type=&quot;elementExpressionSpecification&quot; element=&quot;eee_1045467100313_135436_1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#10;        &lt;taggedValues&gt;&#10;            &lt;entry key=&quot;name&quot;&gt;&#10;                &lt;value&gt;Element1&lt;/value&gt;&#10;            &lt;/entry&gt;&#10;        &lt;/taggedValues&gt;&#10;    &lt;/value&gt;&#10;&lt;/unionExpressionSpecification&gt;&#10;" includeCustomTypesOfRowTypes="true" includeCustomTypesOfColumnTypes="true">
+    <rowElementType href="http://www.omg.org/spec/UML/20131001/UML.xmi#Package"/>
+    <columnElementType href="http://www.omg.org/spec/UML/20131001/UML.xmi#Package"/>
+  </Dependency_Matrix_Profile:MatrixFilter>
+  <MagicDraw_Profile:DiagramInfo xmi:id="_19_0_3_b5902e3_1597852202140_209632_13976" base_Diagram="_19_0_3_b5902e3_1597852202144_660631_14014" Creation_date="17.8.16 16.14" Modification_date="8/19/20 11:50 AM" Author="donmaz" Last_modified_by="jdehart"/>
+  <Dependency_Matrix_Profile:DependencyMatrix xmi:id="_19_0_3_b5902e3_1597852202140_209632_13976application1" base_Diagram="_19_0_3_b5902e3_1597852202144_660631_14014" columnTextDirection="Vertical" columnOwnerDisplayMode="Compact tree" showInnerDependencies="true" showElements="With relations" columnHeaderHeight="263" rowHeaderWidth="334" rowOwnerDisplayMode="Compact tree" direction="Column to row" suppressCriteriaArea="false" hideTypes="false" hideScope="false" hideDependencyCriteria="false" rowSortingMode="Ascending" columnSortingMode="Ascending" readOnly="false" takeWholeModelAsScope="true" legendLocation="Top-Left Corner">
+    <dependencyCriteria>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;callExpressionSpecification includeCustomTypes="true" includeSubtypes="false" xmlns="http://www.nomagic.com/schemas/MagicDraw/StructuredExpression/2013"&gt;
+    &lt;taggedValues&gt;
+        &lt;entry key="name"&gt;
+            &lt;value&gt;Element Import&lt;/value&gt;
+        &lt;/entry&gt;
+    &lt;/taggedValues&gt;
+    &lt;argument xsi:type="lookupExpressionSpecification" symbol="THIS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/&gt;
+    &lt;expression xsi:type="dslRelationExpressionSpecification" stereotype="_19_0beta_9250292_1504527525561_959599_4506" direction="DIRECT" includeCustomTypes="true" includeSubtypes="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/&gt;
+&lt;/callExpressionSpecification&gt;
+</dependencyCriteria>
+    <rowCollapsedNodes>_18_0beta_903028d_1388650186579_449738_103883</rowCollapsedNodes>
+  </Dependency_Matrix_Profile:DependencyMatrix>
+  <Dependency_Matrix_Profile:MatrixFilter xmi:id="_19_0_3_b5902e3_1597852202140_209632_13976application2" base_Diagram="_19_0_3_b5902e3_1597852202144_660631_14014" includeSubtypesOfRowTypes="true" includeSubtypesOfColumnTypes="true" columnScopeDefined="true" rowScopeDefined="true" columnScope="_19_0_3_b5902e3_1597852202133_565932_13901" includeCustomTypesOfRowTypes="true" includeCustomTypesOfColumnTypes="true">
+    <rowElementType href="http://www.omg.org/spec/SysML/20181001/SysML.xmi#SysML.ValueType"/>
+    <columnElementType href="http://www.omg.org/spec/UML/20131001/UML.xmi#Package"/>
+    <rowScope href="ISO-80000-Extension.mdzip#_19_0beta_8c4028a_1506585200574_397586_41114"/>
+    <rowScope href="ISO-80000.mdzip#cad57231-da70-4698-9930-327efc8023f2"/>
+  </Dependency_Matrix_Profile:MatrixFilter>
+</xmi:XMI>
