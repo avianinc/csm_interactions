@@ -22,7 +22,7 @@ source("code/funcs.R")
 csmfileName <- "models/example_model.mdzip"
 rootNodeName <- "MISSILE ASSY"
 modelFileName <- "com.nomagic.magicdraw.uml_model.model" # cameo XML model
-xmlFile <- unz(csmfileName,modelFileName) # unzip the model to memory
+xmlFile <- unz(csmfileName, modelFileName) # unzip the model to memory
 
 # Read XML file using xml2 package
 # https://blog.rstudio.com/2015/04/21/xml2/
@@ -52,25 +52,25 @@ csm2Diagram(rootNodeChildrenNames)
 treeStruct
 plot(treeStruct)
 
-# Play with cost attribute
+# Play with cost attribute (unremark to present...)
 dfCost = ToDataFrameNetwork(treeStruct, "cost")
-dfCost <- edit(dfCost)
-totalCost <- sum(dfCost$cost)
-totalCost
+# dfCost <- edit(dfCost)
+# totalCost <- sum(dfCost$cost)
+# totalCost
 
 # Group by system and sum
-data_group <- dfCost %>%                              
-  group_by(from) %>%
-  dplyr::summarize(gr_sum = sum(cost)) %>% 
-  as.data.frame()
-data_group                                            
+#data_group <- dfCost %>%                              
+#  group_by(from) %>%
+#  dplyr::summarize(gr_sum = sum(cost)) %>% 
+#  as.data.frame()
+#data_group                                            
 
 ####
 #------- Lets fetch some data from the XML
 ####
 
 # Fetch a list of the first stage blocks
-baseModel <- (xml_find_(xmlData, paste0(xmlElement, "'", rootNodeName, "'", xmlClass)))
+baseModel <- (xml_find_all(xmlData, paste0(xmlElement, "'", rootNodeName, "'", xmlClass)))
 
 # -----------------  Put your analysis model here!!!! ########
 
@@ -79,24 +79,25 @@ baseModel <- (xml_find_(xmlData, paste0(xmlElement, "'", rootNodeName, "'", xmlC
 attribute = "xyz"
 xmlElement <- "//ownedAttribute[@name="
 xmlClass <- "and @xmi:type='uml:Property']/defaultValue"
+xpathCall <- paste0(xmlElement, "'", attribute, "'", xmlClass)
+xpathCall
 
-# Fetch that defaultValue for the noted attrubute item
+# Fetch that defaultValue for the noted attribute item
 xyz_defaultValue <- as.numeric(
-  xml_attr(xml_find_all(xmlData, paste0(xmlElement, "'", attribute, "'", xmlClass)), "value")
+  xml_attr(xml_find_all(xmlData, xpathCall), "value")
   )
 
-# -----------------  Put your analysis model here!!!! ########
+# -----------------  Put your analysis model here!!!!
+# in this case lets just multiply by 2
 xyz_newValue <- as.numeric(xyz_defaultValue) * 2
 
-# Now lets update the defaultValue based on the results of the analysis
-xml_set_attr(xml_find_all(xmlData, paste0(xmlElement, "'", attribute, "'", xmlClass)), "value", xyz_newValue)
+# Now lets set the attributes defaultValue in the model based on the results of the analysis
+xml_set_attr(xml_find_all(xmlData, xpathCall), "value", xyz_newValue)
 
-# This is the XPATH call walk
-paste0(xmlElement, "'", attribute, "'", xmlClass)
-xml_find_all(xmlData, paste0(xmlElement, "'", attribute, "'", xmlClass))
+# Finally lets save the xmlData model back to disk
+unzip(csmfileName)
 
-
-### That's it... in about 50 working lines of code (including the recrusive func) we:
+### That's it... in about 50 working lines of code (including the recursive func) we:
 # 1) pulled an entire model out of csm
 # 2) performed some foreign attribute work (cost summation)
 # 3) found a specific attribute and modified it value
