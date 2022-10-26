@@ -89,18 +89,21 @@ xyz_defaultValue <- as.numeric(
 
 # -----------------  Put your analysis model here!!!!
 # in this case lets just multiply by 2
-xyz_newValue <- as.numeric(xyz_defaultValue) * 2
+xyz_newValue <- as.numeric(xyz_defaultValue) / 2
 
 # Now lets set the attributes defaultValue in the model based on the results of the analysis
 xml_set_attr(xml_find_all(xmlData, xpathCall), "value", xyz_newValue)
 
 # Finally lets save the xmlData model back to disk
-unzip(csmfileName)
+tmp <- tempdir()
+unzip(csmfileName, overwrite=TRUE, exdir=tmp)
+modelFile <- paste0(tmp, "\\", modelFileName)
+write_xml(xmlData, file=modelFile)
+zip(csmfileName, tmp)
+
 
 ### That's it... in about 50 working lines of code (including the recursive func) we:
 # 1) pulled an entire model out of csm
 # 2) performed some foreign attribute work (cost summation)
 # 3) found a specific attribute and modified it value
 # 4) and finally saved the model back to disk
-
-
