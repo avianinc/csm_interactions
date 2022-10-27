@@ -2,7 +2,7 @@
 ## Project: csm2r
 ## Script purpose: extract data structure from magicdraw bdd
 ##                 performs aggregation of attributes (mass only for now)
-## Date: 10/25/22 (last update: 10/25/22)
+## Date: 10/25/22 (last update: 10/26/22)
 ## Author: J.K. DeHart
 ##########################################################################
 # About the data.tree library
