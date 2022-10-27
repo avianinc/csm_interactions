@@ -780,7 +780,7 @@
               <referenceExtension referentPath="SysML::Libraries::PrimitiveValueTypes::Real" referentType="DataType" originalID="_11_5EAPbeta_be00301_1147431819399_50461_1671"/>
             </xmi:Extension>
           </type>
-          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_2021x_2_b5902e3_1666726483635_906083_17449" value="4999.5"/>
+          <defaultValue xmi:type="uml:LiteralReal" xmi:id="_2021x_2_b5902e3_1666726483635_906083_17449" value="624.9375"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_b5902e3_1597853167612_432690_43310" name="DOME"/>

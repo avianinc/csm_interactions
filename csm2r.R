@@ -57,7 +57,7 @@ plot(treeStruct)
 
 # Play with cost attribute (unremark to present...)
 dfCost = ToDataFrameNetwork(treeStruct, "cost")
-dfCost <- edit(dfCost)
+#dfCost <- edit(dfCost)
 
 # Convert back to a network after the 
 treeStruct <- FromDataFrameNetwork(dfCost)
@@ -105,5 +105,5 @@ zip(csmfileName, files=modelFileName, flags="-uv") # replace with updated model
 ### That's it... in about 50 working lines of code (including the recursive func) we:
 # 1) pulled an entire model out of csm
 # 2) performed some foreign attribute work (cost summation)
-# 3) found a specific attribute and modified it value
+# 3) found a specific attribute and modified its value
 # 4) and finally saved the model back to disk
