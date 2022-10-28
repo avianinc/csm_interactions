@@ -21,6 +21,7 @@ source("code/funcs.R")
 # Setup model import
 csmfileName <- "models/example_model.mdzip"
 rootNodeName <- "MISSILE ASSY"
+#rootNodeName <- "AIRCRAFT SYSTEM"
 modelFileName <- "com.nomagic.magicdraw.uml_model.model" # cameo XML model
 xmlFile <- unz(csmfileName, modelFileName) # unzip the model to memory
 
@@ -41,6 +42,7 @@ xpathCall
 # BUild the root node in the tree
 rootNodeXML <- xml_find_all(xmlData, xpathCall)
 rootNodeChildrenNames <- toupper(xml_attr(xml_children(rootNodeXML), "name"))
+rootNodeChildrenNames <- rootNodeChildrenNames[!is.na(rootNodeChildrenNames)] # remove nas
 treeStruct <- Node$new(rootNodeName)
 treeStruct
 
