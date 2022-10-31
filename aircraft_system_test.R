@@ -35,4 +35,21 @@ for (i in 1:(slotCount/2))
 
 
 # Update the json file with the Failure Rate
+# for (i in 1:slotCount/2))
 
+# 1 - update the input json file
+opus_input$model$tables[[8]]$instances[[1]]$rows[[1]][[3]] <- failureRates[2]
+
+# 2 - Run the Opus analysis
+
+# 3 - Read the Opus response model
+
+# 4 - update the xmlData model
+
+#{
+
+# 5 - Write the model back to disk
+
+# 6 - Auto update the systems model table
+
+# 7 - Update the dashboard database
