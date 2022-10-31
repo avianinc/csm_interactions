@@ -7,6 +7,7 @@ library(stringr)
 library(skimr)
 library(doParallel)
 library(dplyr)
+library(jsonlite)
 
 # Modify global options
 options(digits = 4)
